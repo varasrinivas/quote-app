@@ -1,0 +1,16 @@
+page-quotes {
+    .pageBackground{
+        background-color: #76b852;
+    }
+    .author{
+        color:#777;
+        text-align:right;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        &:before{
+            content: "- ";
+        }
+    }
+
+}
